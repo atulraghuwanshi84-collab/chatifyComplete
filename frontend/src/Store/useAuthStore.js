@@ -8,7 +8,7 @@ import { io} from "socket.io-client" ;
 import { useEffect } from "react";
 
 
-const BASE_URL = import.meta.env.MODE === "development" ? "http://localhost:3000" : "/"
+const BASE_URL = import.meta.env.MODE === "development" ? "https://chatifycomplete.onrender.com" : "/"
 
 
 export const useAuthStore = create((set,get) => ({
